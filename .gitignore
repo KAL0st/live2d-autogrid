@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+runs/
+checkpoints/
+*.pt
+dataset/*
+!dataset/.gitkeep
