@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 模型权重与训练产物 ----
+*.pt
+*.pth
+*.onnx
+runs/
+_out/
+_tmp/
+
+# ---- 私有素材与数据（体积大，含卡师傅自有模型素材，不入库） ----
+raw/
+训练集/
+缓存/
+深度图/
+输出/
+输入/
+dataset/*
+!dataset/.gitkeep
+
+# ---- 探针与临时输出 ----
+_probe_*/
+
+# ---- Windows 误创建的文件 ----
+nul
+
+# ---- C/C++ 编译产物 ----
+_tools/*.exe
+_tools/*.obj
